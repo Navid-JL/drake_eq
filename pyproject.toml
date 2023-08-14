@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "drake-eq"
+version = "1.0.0"
+description = "drake_eq is a Python implementation of the Drake equation, a probabilistic method for estimating the number of advanced extraterrestrial civilizations that harbor technology capable of communicating their existence."
+authors = ["Navid <navidjalili3@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "drake_eq"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
